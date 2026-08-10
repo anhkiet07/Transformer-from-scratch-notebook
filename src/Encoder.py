@@ -1,8 +1,6 @@
 import numpy as np
 import math
 
-import torch
-
 def softmax(x, axis=-1):
     x = x - np.max(x, axis=axis, keepdims=True)
     exp_x = np.exp(x)
@@ -142,17 +140,3 @@ class Encoder():
         for layer in self.layers:
             x = layer.forward(x)
         return x
-
-if __name__ == "__main__":
-    d_model = 512
-    num_heads = 8
-    drop_prob = 0.1
-    batch_size = 30
-    max_sequence_length = 200
-    ffn_hidden = 2048
-    num_layers = 5
-
-    encoder = Encoder(d_model, ffn_hidden, num_heads, drop_prob, num_layers)
-
-    x = np.random.randn(batch_size, max_sequence_length, d_model) # includes positional encoding
-    out = encoder.forward(x)
