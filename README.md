@@ -26,6 +26,12 @@ Transformer/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
+├── data/
+│   ├── train.en / train.vi
+│   ├── tst2012.en / tst2012.vi
+│   └── tst2013.en / tst2013.vi
+├── docs/
+│   └── architecture.svg
 ├── notebooks/
 │   ├── Self Attention.ipynb
 │   ├── Multi-head Attention.ipynb
@@ -71,36 +77,7 @@ Everything in `src/` is pure NumPy — no autograd, no GPU, forward pass only.
 
 ## Architecture
 
-```text
-source sentences                          target sentences
-       │                                          │
-       ▼                                          ▼
- SentenceEmbedding                         SentenceEmbedding
- (tokenize + embed + positional encoding)  (tokenize + embed + positional encoding)
-       │                                          │
-       ▼                                          │
- ┌───────────────┐  N ×                            │
- │  EncoderLayer  │                                 │
- │  self-attn     │                                 │
- │  add & norm    │                                 │
- │  feed forward  │                                 │
- │  add & norm    │                                 │
- └───────┬───────┘                                 │
-         │ encoder output                          ▼
-         │                                 ┌────────────────┐  N ×
-         └───────────────────────────────► │  DecoderLayer   │
-                                            │  masked self-attn│
-                                            │  add & norm       │
-                                            │  cross-attn (↑)   │
-                                            │  add & norm        │
-                                            │  feed forward       │
-                                            │  add & norm           │
-                                            └──────────┬───────────┘
-                                                        ▼
-                                                Linear (→ vocab size)
-                                                        ▼
-                                                     logits
-```
+![Transformer architecture](docs/architecture.svg)
 
 ## Tests
 
