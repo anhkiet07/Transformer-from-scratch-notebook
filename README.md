@@ -79,6 +79,18 @@ Everything in `src/` is pure NumPy — no autograd, no GPU, forward pass only.
 
 ![Transformer architecture](docs/architecture.svg)
 
+For a detailed breakdown of every class — math, code, tensor shapes, and a list of bugs/discrepancies found in `src/` — see the docs in [`docs/`](docs/):
+
+| Doc | Content |
+|---|---|
+| [docs/architecture.md](docs/architecture.md) | Architecture overview, end-to-end data flow, the 3 source files and their roles |
+| [docs/attention.md](docs/attention.md) | Scaled dot-product attention, Multi-Head Attention, Multi-Head Cross-Attention |
+| [docs/embedding.md](docs/embedding.md) | `Embedding`, `PositionalEncoding`, `SentenceEmbedding` |
+| [docs/encoder.md](docs/encoder.md) | `EncoderLayer`, `Encoder` (standalone vs. full build) |
+| [docs/decoder.md](docs/decoder.md) | `DecoderLayer`, `Decoder` (standalone vs. full build) |
+| [docs/transformer.md](docs/transformer.md) | The full `Transformer` class, masks, forward pass |
+| [docs/known-issues.md](docs/known-issues.md) | Bugs/discrepancies found while reading the source |
+
 ## Tests
 
 Each test notebook in `test/` imports directly from `src/Transformer.py`, runs a forward pass on random/toy data, and asserts the output shape:
