@@ -1,0 +1,138 @@
+﻿Loading data...
+Sentence pairs: 300
+English vocab size: 36
+Vietnamese vocab size: 96
+max_sequence_length: 32
+Total parameters: 98400
+Epoch 1/80  loss=4.2581  (1.9s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction):                                 
+Epoch 2/80  loss=3.7520  (4.0s elapsed)
+Epoch 3/80  loss=3.5865  (5.1s elapsed)
+Epoch 4/80  loss=3.5081  (6.1s elapsed)
+Epoch 5/80  loss=3.4671  (7.1s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction):                                 
+Epoch 6/80  loss=3.4428  (8.7s elapsed)
+Epoch 7/80  loss=3.4187  (9.5s elapsed)
+Epoch 8/80  loss=3.4004  (10.5s elapsed)
+Epoch 9/80  loss=3.3817  (11.2s elapsed)
+Epoch 10/80  loss=3.3590  (12.1s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): c                      
+Epoch 11/80  loss=3.3446  (12.9s elapsed)
+Epoch 12/80  loss=3.3175  (13.7s elapsed)
+Epoch 13/80  loss=3.3000  (14.6s elapsed)
+Epoch 14/80  loss=3.2604  (15.4s elapsed)
+Epoch 15/80  loss=3.2157  (16.1s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): ch    n t t n n    n 
+Epoch 16/80  loss=3.1730  (17.0s elapsed)
+Epoch 17/80  loss=3.0968  (17.8s elapsed)
+Epoch 18/80  loss=3.0131  (18.5s elapsed)
+Epoch 19/80  loss=2.9525  (19.3s elapsed)
+Epoch 20/80  loss=2.8900  (20.0s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): ci n t t t t t t t t t
+Epoch 21/80  loss=2.8413  (20.7s elapsed)
+Epoch 22/80  loss=2.8025  (21.5s elapsed)
+Epoch 23/80  loss=2.7542  (22.2s elapsed)
+Epoch 24/80  loss=2.7065  (22.8s elapsed)
+Epoch 25/80  loss=2.6564  (23.5s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): có ng t t t t t t t t
+Epoch 26/80  loss=2.6159  (24.3s elapsed)
+Epoch 27/80  loss=2.5859  (24.9s elapsed)
+Epoch 28/80  loss=2.5388  (25.6s elapsed)
+Epoch 29/80  loss=2.5134  (26.3s elapsed)
+Epoch 30/80  loss=2.4713  (27.0s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): chi thôn thi t thi t
+Epoch 31/80  loss=2.4569  (27.8s elapsed)
+Epoch 32/80  loss=2.4225  (28.6s elapsed)
+Epoch 33/80  loss=2.3969  (29.4s elapsed)
+Epoch 34/80  loss=2.3830  (30.1s elapsed)
+Epoch 35/80  loss=2.3493  (30.9s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): cảm cả các chi chi chi
+Epoch 36/80  loss=2.3412  (31.5s elapsed)
+Epoch 37/80  loss=2.3119  (32.2s elapsed)
+Epoch 38/80  loss=2.2962  (33.0s elapsed)
+Epoch 39/80  loss=2.2847  (33.7s elapsed)
+Epoch 40/80  loss=2.2804  (34.3s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): cảm cảm các cả các các
+Epoch 41/80  loss=2.2504  (35.2s elapsed)
+Epoch 42/80  loss=2.2482  (36.2s elapsed)
+Epoch 43/80  loss=2.2293  (38.4s elapsed)
+Epoch 44/80  loss=2.2155  (39.6s elapsed)
+Epoch 45/80  loss=2.1921  (40.6s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): cảm cảm các cảm các các
+Epoch 46/80  loss=2.1945  (41.7s elapsed)
+Epoch 47/80  loss=2.1817  (42.7s elapsed)
+Epoch 48/80  loss=2.1736  (43.5s elapsed)
+Epoch 49/80  loss=2.1501  (44.2s elapsed)
+Epoch 50/80  loss=2.1415  (44.9s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): cảm ơn các cảm cảm các cảm
+Epoch 51/80  loss=2.1416  (45.7s elapsed)
+Epoch 52/80  loss=2.1236  (46.5s elapsed)
+Epoch 53/80  loss=2.1117  (47.3s elapsed)
+Epoch 54/80  loss=2.1085  (48.0s elapsed)
+Epoch 55/80  loss=2.0999  (48.8s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): cảm ơn các cảm cảm các
+Epoch 56/80  loss=2.0921  (49.6s elapsed)
+Epoch 57/80  loss=2.0909  (50.4s elapsed)
+Epoch 58/80  loss=2.0692  (51.2s elapsed)
+Epoch 59/80  loss=2.0569  (51.9s elapsed)
+Epoch 60/80  loss=2.0588  (52.6s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): cảm ơn các cảm cảm các cảm
+Epoch 61/80  loss=2.0535  (53.5s elapsed)
+Epoch 62/80  loss=2.0356  (54.2s elapsed)
+Epoch 63/80  loss=2.0450  (55.0s elapsed)
+Epoch 64/80  loss=2.0333  (55.7s elapsed)
+Epoch 65/80  loss=2.0308  (56.4s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): cảm ơn các cảm cảm các
+Epoch 66/80  loss=2.0197  (57.1s elapsed)
+Epoch 67/80  loss=2.0203  (57.9s elapsed)
+Epoch 68/80  loss=2.0040  (58.6s elapsed)
+Epoch 69/80  loss=1.9996  (59.3s elapsed)
+Epoch 70/80  loss=1.9986  (60.1s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): cảm ơn các cảm cảm các cảm
+Epoch 71/80  loss=1.9910  (60.9s elapsed)
+Epoch 72/80  loss=1.9646  (61.6s elapsed)
+Epoch 73/80  loss=1.9690  (62.3s elapsed)
+Epoch 74/80  loss=1.9635  (63.0s elapsed)
+Epoch 75/80  loss=1.9718  (63.8s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): cảm ơn ơn cảm cảm các cảm
+Epoch 76/80  loss=1.9620  (64.5s elapsed)
+Epoch 77/80  loss=1.9459  (65.2s elapsed)
+Epoch 78/80  loss=1.9409  (65.9s elapsed)
+Epoch 79/80  loss=1.9440  (66.6s elapsed)
+Epoch 80/80  loss=1.9375  (67.4s elapsed)
+  EN: thank you very much
+  VI (target):     cám ơn rất nhiều
+  VI (prediction): cảm ơn các cảm cảm các
+Saved checkpoint to D:\Project\Notebook\Transformer\translator\checkpoint.pkl
